@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Orders:get",
+    "description": "Get orders",
+    "section": "Order",
+    "authentication": "oauth",
+    "endpoint": "/orders",
+    "method": "get",
+    "controller": "Order",
+    "callback": "find",
+    "parameters": {}
+  },
+  {
+    "title": "Order:get",
+    "description": "Get order",
+    "section": "Order",
+    "authentication": "oauth",
+    "endpoint": "/order/:id",
+    "method": "get",
+    "controller": "Order",
+    "callback": "get",
+    "parameters": {}
+  }
+]

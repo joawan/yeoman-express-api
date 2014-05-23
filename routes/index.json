@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Index",
+    "description": "Index",
+    "section": "Utility",
+    "authentication": false,
+    "endpoint": "/",
+    "method": "get",
+    "controller": "Index",
+    "callback": "index",
+    "parameters": {}
+  },
+  {
+    "title": "Endpoints",
+    "description": "Endpoints",
+    "section": "Utility",
+    "authentication": false,
+    "endpoint": "/endpoints",
+    "method": "get",
+    "controller": "Index",
+    "callback": "endpoints",
+    "parameters": {}
+  }
+]

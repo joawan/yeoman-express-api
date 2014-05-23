@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Users:get",
+    "description": "Get users",
+    "section": "User",
+    "authentication": "oauth",
+    "endpoint": "/users",
+    "method": "get",
+    "controller": "User",
+    "callback": "find",
+    "parameters": {
+        "email":          { "required": false, "type": "email", "regex": false, "description":"Email",      "example":"me@example.com" },
+        "userId":         { "required": false, "type": "int",   "regex": false, "description":"User ID",    "example":"1001" }
+    }
+  },
+  {
+    "title": "User:get",
+    "description": "Get users",
+    "section": "User",
+    "authentication": "oauth",
+    "authorization": "access-user",
+    "endpoint": "/user/:id",
+    "method": "get",
+    "controller": "User",
+    "callback": "get",
+    "parameters": {}
+  }
+]
